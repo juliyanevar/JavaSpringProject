@@ -1,0 +1,44 @@
+"2020-10-15 22:04:05 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 10048 (C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater)
+""2020-10-15 22:04:05 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-10-15 22:04:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-10-15 22:04:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-10-15 22:04:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+""2020-10-15 22:04:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-10-15 22:04:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1190 ms
+""2020-10-15 22:04:07 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2020-10-15 22:04:07 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-10-15 22:04:07 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2020-10-15 22:04:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2020-10-15 22:04:07 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.255 seconds (JVM running for 2.924)
+""2020-10-15 22:04:17 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-10-15 22:04:17 [http-nio-8080-exec-1] INFO  b.n.t.c.PerformanceController - /index was called
+""2020-10-15 22:04:58 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9012 (C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater)
+""2020-10-15 22:04:58 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-10-15 22:04:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-10-15 22:04:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-10-15 22:04:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+""2020-10-15 22:04:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-10-15 22:04:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 863 ms
+""2020-10-15 22:04:59 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2020-10-15 22:04:59 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-10-15 22:04:59 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2020-10-15 22:04:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2020-10-15 22:04:59 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 1.507 seconds (JVM running for 2.398)
+""2020-10-15 22:05:02 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-10-15 22:05:02 [http-nio-8080-exec-1] INFO  b.n.t.c.PerformanceController - /index was called
+""2020-10-15 22:07:45 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 3884 (C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater)
+""2020-10-15 22:07:45 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-10-15 22:07:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-10-15 22:07:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-10-15 22:07:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+""2020-10-15 22:07:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-10-15 22:07:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 876 ms
+""2020-10-15 22:07:46 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2020-10-15 22:07:47 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-10-15 22:07:47 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2020-10-15 22:07:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2020-10-15 22:07:47 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 1.532 seconds (JVM running for 2.222)
+""2020-10-15 22:08:08 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-10-15 22:08:08 [http-nio-8080-exec-1] INFO  b.n.t.c.PerformanceController - /index was called
+""2020-10-15 22:08:11 [http-nio-8080-exec-5] INFO  b.n.t.c.PerformanceController - /alltheatres was called
+"
