@@ -41,4 +41,45 @@
 ""2020-10-15 22:08:08 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-10-15 22:08:08 [http-nio-8080-exec-1] INFO  b.n.t.c.PerformanceController - /index was called
 ""2020-10-15 22:08:11 [http-nio-8080-exec-5] INFO  b.n.t.c.PerformanceController - /alltheatres was called
+""2020-10-15 22:58:14 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9192 (C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater)
+""2020-10-15 22:58:14 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-10-15 22:58:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-10-15 22:58:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-10-15 22:58:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+""2020-10-15 22:58:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-10-15 22:58:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 765 ms
+""2020-10-15 22:58:15 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'registrationController': Unsatisfied dependency expressed through method 'showRegistrationPage' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.ui.Model' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+""2020-10-15 22:58:15 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2020-10-15 22:58:15 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2020-10-15 22:58:15 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method showRegistrationPage in by.nevar.theatre.controller.RegistrationController required a bean of type 'org.springframework.ui.Model' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.ui.Model' in your configuration.
+
+""2020-10-15 22:58:40 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 4344 (C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\labs\theater)
+""2020-10-15 22:58:40 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-10-15 22:58:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-10-15 22:58:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-10-15 22:58:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+""2020-10-15 22:58:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-10-15 22:58:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 770 ms
+""2020-10-15 22:58:41 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2020-10-15 22:58:41 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-10-15 22:58:41 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2020-10-15 22:58:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2020-10-15 22:58:41 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 1.366 seconds (JVM running for 2.001)
+""2020-10-15 22:58:49 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-10-15 22:58:49 [http-nio-8080-exec-1] INFO  b.n.t.c.PerformanceController - /index was called
 "
