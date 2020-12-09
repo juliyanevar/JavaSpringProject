@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
@@ -18,21 +17,21 @@ import java.util.List;
 @RequestMapping
 public class PerformanceController {
     private static List<Performance> performances = new ArrayList<Performance>();
-    private static List<Theatre> theatres = new ArrayList<Theatre>();
+    private static List<Theater> theaters = new ArrayList<Theater>();
 
-    static {
-        theatres.add(new Theatre("Большой театр"));
-        theatres.add(new Theatre("Театр киноактера"));
-        theatres.add(new Theatre("Театр музкомедии"));
-        theatres.add(new Theatre("Купаловский театр"));
-        theatres.add(new Theatre("Театр юного зрителя"));
-        theatres.add(new Theatre("Театр кукол"));
-        theatres.add(new Theatre("Молодежный театр"));
-        theatres.add(new Theatre("Театр эстрады"));
-        theatres.add(new Theatre("Новый драматический театр"));
-        theatres.add(new Theatre("Камерный драматический театр"));
-        theatres.add(new Theatre("Театр Горького"));
-    }
+//    static {
+//        theaters.add(new Theater("Большой театр"));
+//        theaters.add(new Theater("Театр киноактера"));
+//        theaters.add(new Theater("Театр музкомедии"));
+//        theaters.add(new Theater("Купаловский театр"));
+//        theaters.add(new Theater("Театр юного зрителя"));
+//        theaters.add(new Theater("Театр кукол"));
+//        theaters.add(new Theater("Молодежный театр"));
+//        theaters.add(new Theater("Театр эстрады"));
+//        theaters.add(new Theater("Новый драматический театр"));
+//        theaters.add(new Theater("Камерный драматический театр"));
+//        theaters.add(new Theater("Театр Горького"));
+//    }
 
     @Value("${welcome.message}")
     private String message;
@@ -53,7 +52,7 @@ public class PerformanceController {
     public ModelAndView personList(Model model) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("theatrelist");
-        model.addAttribute("theatres", theatres);
+        model.addAttribute("theatres", theaters);
         log.info("/alltheatres was called");
         return modelAndView;
     }

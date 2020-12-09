@@ -3,22 +3,21 @@ package by.nevar.theatre.models;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name="Actors")
+@Table(name = "Roles")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Actor {
+public class Role {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
 
-    @Column(name="name")
+    @Column(name = "name")
     private String name;
-
-    @ManyToMany(mappedBy = "actors")
-    List<Performance> performances;
 }
+
