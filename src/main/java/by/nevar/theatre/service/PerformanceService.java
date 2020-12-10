@@ -101,6 +101,37 @@ public class PerformanceService {
         return performance;
     }
 
+    public Performance AddNewPerformance(Performance performance){
+        Performance performanceFromDB=performanceRepository.findByTitle(performance.getTitle());
+        if(performanceFromDB!=null){
+            return  null;
+        }
+        Performance newPerformance = new Performance();
+        newPerformance.setTitle(performance.getTitle());
+        newPerformance.setGenre(performance.getGenre());
+        newPerformance.setTheater(performance.getTheater());
+        newPerformance.setDate(performance.getDate());
+        newPerformance.setTime(performance.getTime());
+        performanceRepository.save(newPerformance);
+        return newPerformance;
+    }
+
+    public Performance EditPerformance(Performance performance){
+        Performance performanceFromDB=performanceRepository.findById(performance.getId()).get();
+        if(performanceFromDB==null){
+            return null;
+        }
+        performanceRepository.save(performance);
+        return performance;
+    }
+
+    public void DeletePerformance(Performance performance){
+        Integer performanceId=performanceRepository.findById(performance.getId()).get().getId();
+        if(performanceId!=null){
+            performanceRepository.deleteById(performanceId);
+        }
+    }
+
 
 
 }
