@@ -64,9 +64,9 @@ public class ActorService {
         return actor;
     }
 
-    public void DeleteActor(Actor actor){
-        Integer actorId=actorRepository.findById(actor.getId()).get().getId();
-        if(actorId!=null){
+    public void DeleteActor(Actor actor) {
+        Integer actorId = actorRepository.findById(actor.getId()).get().getId();
+        if (actorId != null) {
             actorRepository.deleteById(actorId);
         }
     }

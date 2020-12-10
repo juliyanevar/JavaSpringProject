@@ -17,14 +17,15 @@ import java.util.List;
 public class PerformanceService {
     @Autowired
     private IPerformanceRepository performanceRepository;
+
     @Autowired
-    public PerformanceService(){
+    public PerformanceService() {
     }
 
-    public Performance LoadPerformanceByTitle(String title){
-        Performance performance=performanceRepository.findByTitle(title);
+    public Performance LoadPerformanceByTitle(String title) {
+        Performance performance = performanceRepository.findByTitle(title);
 
-        if(performance==null){
+        if (performance == null) {
             //exception
         }
 
@@ -32,40 +33,40 @@ public class PerformanceService {
         return performance;
     }
 
-    public List<Performance> LoadPerformanceByGenre(String genre){
-        List<Performance> performances=performanceRepository.findByGenre(genre);
+    public List<Performance> LoadPerformanceByGenre(String genre) {
+        List<Performance> performances = performanceRepository.findByGenre(genre);
 
-        if(performances==null){
+        if (performances == null) {
             //exception
         }
 
         return performances;
     }
 
-    public List<Performance> LoadPerformanceByTheater(Theater theater){
-        List<Performance> performances=performanceRepository.findByTheater(theater);
+    public List<Performance> LoadPerformanceByTheater(Theater theater) {
+        List<Performance> performances = performanceRepository.findByTheater(theater);
 
-        if(performances==null){
+        if (performances == null) {
             //exception
         }
 
         return performances;
     }
 
-    public List<Performance> LoadPerformanceByDate(Date date){
-        List<Performance> performances=performanceRepository.findByDate(date);
+    public List<Performance> LoadPerformanceByDate(Date date) {
+        List<Performance> performances = performanceRepository.findByDate(date);
 
-        if(performances==null){
+        if (performances == null) {
             //exception
         }
 
         return performances;
     }
 
-    public List<Performance> LoadPerformanceByTime(Time time){
-        List<Performance> performances=performanceRepository.findByTime(time);
+    public List<Performance> LoadPerformanceByTime(Time time) {
+        List<Performance> performances = performanceRepository.findByTime(time);
 
-        if(performances==null){
+        if (performances == null) {
             //exception
         }
 
@@ -73,9 +74,9 @@ public class PerformanceService {
     }
 
 
-    public Performance FromPerformanceForm(PerformanceForm form){
-        Performance performance=new Performance();
-        if(form ==null){
+    public Performance FromPerformanceForm(PerformanceForm form) {
+        Performance performance = new Performance();
+        if (form == null) {
             return performance;
         }
         if (form.getId() != null) {
@@ -87,13 +88,13 @@ public class PerformanceService {
         if (form.getGenre() != "" && form.getGenre() != null) {
             performance.setGenre(form.getGenre());
         }
-        if(form.getTheater()!=null){
+        if (form.getTheater() != null) {
             performance.setTheater(form.getTheater());
         }
-        if(form.getDate()!=null){
+        if (form.getDate() != null) {
             performance.setDate(form.getDate());
         }
-        if(form.getTime()!=null){
+        if (form.getTime() != null) {
             performance.setTime(form.getTime());
         }
 
@@ -101,10 +102,10 @@ public class PerformanceService {
         return performance;
     }
 
-    public Performance AddNewPerformance(Performance performance){
-        Performance performanceFromDB=performanceRepository.findByTitle(performance.getTitle());
-        if(performanceFromDB!=null){
-            return  null;
+    public Performance AddNewPerformance(Performance performance) {
+        Performance performanceFromDB = performanceRepository.findByTitle(performance.getTitle());
+        if (performanceFromDB != null) {
+            return null;
         }
         Performance newPerformance = new Performance();
         newPerformance.setTitle(performance.getTitle());
@@ -116,22 +117,21 @@ public class PerformanceService {
         return newPerformance;
     }
 
-    public Performance EditPerformance(Performance performance){
-        Performance performanceFromDB=performanceRepository.findById(performance.getId()).get();
-        if(performanceFromDB==null){
+    public Performance EditPerformance(Performance performance) {
+        Performance performanceFromDB = performanceRepository.findById(performance.getId()).get();
+        if (performanceFromDB == null) {
             return null;
         }
         performanceRepository.save(performance);
         return performance;
     }
 
-    public void DeletePerformance(Performance performance){
-        Integer performanceId=performanceRepository.findById(performance.getId()).get().getId();
-        if(performanceId!=null){
+    public void DeletePerformance(Performance performance) {
+        Integer performanceId = performanceRepository.findById(performance.getId()).get().getId();
+        if (performanceId != null) {
             performanceRepository.deleteById(performanceId);
         }
     }
-
 
 
 }

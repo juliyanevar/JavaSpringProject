@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ITheaterRepository extends CrudRepository<Theater, Integer> {
+    Theater findByName(String name);
 }
