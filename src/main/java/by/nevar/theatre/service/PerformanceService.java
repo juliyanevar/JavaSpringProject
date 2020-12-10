@@ -1,0 +1,106 @@
+package by.nevar.theatre.service;
+
+
+import by.nevar.theatre.forms.PerformanceForm;
+import by.nevar.theatre.models.Actor;
+import by.nevar.theatre.models.Performance;
+import by.nevar.theatre.models.Theater;
+import by.nevar.theatre.repository.IPerformanceRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.sql.Time;
+import java.util.Date;
+import java.util.List;
+
+@Service
+public class PerformanceService {
+    @Autowired
+    private IPerformanceRepository performanceRepository;
+    @Autowired
+    public PerformanceService(){
+    }
+
+    public Performance LoadPerformanceByTitle(String title){
+        Performance performance=performanceRepository.findByTitle(title);
+
+        if(performance==null){
+            //exception
+        }
+
+
+        return performance;
+    }
+
+    public List<Performance> LoadPerformanceByGenre(String genre){
+        List<Performance> performances=performanceRepository.findByGenre(genre);
+
+        if(performances==null){
+            //exception
+        }
+
+        return performances;
+    }
+
+    public List<Performance> LoadPerformanceByTheater(Theater theater){
+        List<Performance> performances=performanceRepository.findByTheater(theater);
+
+        if(performances==null){
+            //exception
+        }
+
+        return performances;
+    }
+
+    public List<Performance> LoadPerformanceByDate(Date date){
+        List<Performance> performances=performanceRepository.findByDate(date);
+
+        if(performances==null){
+            //exception
+        }
+
+        return performances;
+    }
+
+    public List<Performance> LoadPerformanceByTime(Time time){
+        List<Performance> performances=performanceRepository.findByTime(time);
+
+        if(performances==null){
+            //exception
+        }
+
+        return performances;
+    }
+
+
+    public Performance FromPerformanceForm(PerformanceForm form){
+        Performance performance=new Performance();
+        if(form ==null){
+            return performance;
+        }
+        if (form.getId() != null) {
+            performance.setId(form.getId());
+        }
+        if (form.getTitle() != "" && form.getTitle() != null) {
+            performance.setTitle(form.getTitle());
+        }
+        if (form.getGenre() != "" && form.getGenre() != null) {
+            performance.setGenre(form.getGenre());
+        }
+        if(form.getTheater()!=null){
+            performance.setTheater(form.getTheater());
+        }
+        if(form.getDate()!=null){
+            performance.setDate(form.getDate());
+        }
+        if(form.getTime()!=null){
+            performance.setTime(form.getTime());
+        }
+
+
+        return performance;
+    }
+
+
+
+}

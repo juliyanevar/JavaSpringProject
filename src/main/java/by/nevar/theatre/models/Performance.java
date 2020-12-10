@@ -19,10 +19,10 @@ public class Performance {
     private Integer id;
 
     @Column(name="title")
-    private String Title;
+    private String title;
 
     @Column(name="genre")
-    private String Genre;
+    private String genre;
 
     @ManyToOne
     private Theater theater;
