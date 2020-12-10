@@ -631,4 +631,30 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 ""2020-12-11 01:28:29 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 01:28:29 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
 ""2020-12-11 01:28:29 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.305 seconds (JVM running for 4.133)
+""2020-12-11 01:42:57 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 10360 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:42:57 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 01:42:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-12-11 01:42:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 4 JPA repository interfaces.
+""2020-12-11 01:42:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-12-11 01:42:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-12-11 01:42:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+""2020-12-11 01:42:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-12-11 01:42:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1268 ms
+""2020-12-11 01:42:58 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-12-11 01:42:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2020-12-11 01:42:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2020-12-11 01:42:58 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-12-11 01:42:58 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-12-11 01:42:58 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+""2020-12-11 01:42:59 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2020-12-11 01:42:59 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-12-11 01:42:59 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@226d5af0, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ab595c8, org.springframework.security.web.header.HeaderWriterFilter@4a1a412e, org.springframework.security.web.authentication.logout.LogoutFilter@6885ed19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cbf1997, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@584ca390, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@527937d0, org.springframework.security.web.session.SessionManagementFilter@13278a41, org.springframework.security.web.access.ExceptionTranslationFilter@14d8e132, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5122e4bf]
+""2020-12-11 01:42:59 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2020-12-11 01:42:59 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""2020-12-11 01:42:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2020-12-11 01:42:59 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+""2020-12-11 01:42:59 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-12-11 01:42:59 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-12-11 01:43:00 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+""2020-12-11 01:43:00 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.284 seconds (JVM running for 4.151)
 "

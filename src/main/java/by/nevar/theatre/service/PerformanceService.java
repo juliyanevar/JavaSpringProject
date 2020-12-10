@@ -1,6 +1,7 @@
 package by.nevar.theatre.service;
 
 
+import by.nevar.theatre.exceptions.PerformanceNotFoundException;
 import by.nevar.theatre.forms.PerformanceForm;
 import by.nevar.theatre.models.Actor;
 import by.nevar.theatre.models.Performance;
@@ -22,52 +23,52 @@ public class PerformanceService {
     public PerformanceService() {
     }
 
-    public Performance loadPerformanceByTitle(String title) {
+    public Performance loadPerformanceByTitle(String title) throws PerformanceNotFoundException {
         Performance performance = performanceRepository.findByTitle(title);
 
         if (performance == null) {
-            //exception
+            throw new PerformanceNotFoundException("Performance with title: " + title + " not found");
         }
 
 
         return performance;
     }
 
-    public List<Performance> loadPerformanceByGenre(String genre) {
+    public List<Performance> loadPerformanceByGenre(String genre) throws PerformanceNotFoundException {
         List<Performance> performances = performanceRepository.findByGenre(genre);
 
         if (performances == null) {
-            //exception
+            throw new PerformanceNotFoundException("Performance with genre: " + genre + " not found");
         }
 
         return performances;
     }
 
-    public List<Performance> loadPerformanceByTheater(Theater theater) {
+    public List<Performance> loadPerformanceByTheater(Theater theater) throws PerformanceNotFoundException {
         List<Performance> performances = performanceRepository.findByTheater(theater);
 
         if (performances == null) {
-            //exception
+            throw new PerformanceNotFoundException("Performance with theater: " + theater + " not found");
         }
 
         return performances;
     }
 
-    public List<Performance> loadPerformanceByDate(Date date) {
+    public List<Performance> loadPerformanceByDate(Date date) throws PerformanceNotFoundException {
         List<Performance> performances = performanceRepository.findByDate(date);
 
         if (performances == null) {
-            //exception
+            throw new PerformanceNotFoundException("Performance with date: " + date + " not found");
         }
 
         return performances;
     }
 
-    public List<Performance> loadPerformanceByTime(Time time) {
+    public List<Performance> loadPerformanceByTime(Time time) throws PerformanceNotFoundException {
         List<Performance> performances = performanceRepository.findByTime(time);
 
         if (performances == null) {
-            //exception
+            throw new PerformanceNotFoundException("Performance with time: " + time + " not found");
         }
 
         return performances;

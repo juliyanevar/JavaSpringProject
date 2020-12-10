@@ -1,5 +1,6 @@
 package by.nevar.theatre.service;
 
+import by.nevar.theatre.exceptions.ActorNotFoundException;
 import by.nevar.theatre.forms.ActorForm;
 import by.nevar.theatre.models.Actor;
 import by.nevar.theatre.repository.IActorRepository;
@@ -19,11 +20,11 @@ public class ActorService {
     public ActorService() {
     }
 
-    public Actor loadActorByName(String name) {
+    public Actor loadActorByName(String name) throws ActorNotFoundException {
         Actor actor = actorRepository.findByName(name);
 
         if (actor == null) {
-            //exception
+            throw new ActorNotFoundException("Actor with name: " + name + " not found");
         }
 
         return actor;

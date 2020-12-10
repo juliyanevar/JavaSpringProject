@@ -1,5 +1,6 @@
 package by.nevar.theatre.service;
 
+import by.nevar.theatre.exceptions.TheaterNotFoundException;
 import by.nevar.theatre.forms.TheaterForm;
 import by.nevar.theatre.models.Theater;
 import by.nevar.theatre.repository.ITheaterRepository;
@@ -12,14 +13,14 @@ public class TheaterService {
     private ITheaterRepository theaterRepository;
 
     @Autowired
-    public TheaterService(){
+    public TheaterService() {
     }
 
-    public Theater loadTheaterByName(String name) {
+    public Theater loadTheaterByName(String name) throws TheaterNotFoundException {
         Theater theater = theaterRepository.findByName(name);
 
         if (theater == null) {
-            //exception
+            throw new TheaterNotFoundException("Theater with name: " + name + " not found");
         }
 
         return theater;
@@ -39,9 +40,9 @@ public class TheaterService {
         return theater;
     }
 
-    public Theater AddNewTheater(Theater theater){
-        Theater theaterFromDB=theaterRepository.findByName(theater.getName());
-        if(theaterFromDB!=null){
+    public Theater AddNewTheater(Theater theater) {
+        Theater theaterFromDB = theaterRepository.findByName(theater.getName());
+        if (theaterFromDB != null) {
             return null;
         }
         Theater newTheater = new Theater();
@@ -50,18 +51,18 @@ public class TheaterService {
         return newTheater;
     }
 
-    public Theater EditTheater(Theater theater){
-        Theater theaterFromDB=theaterRepository.findById(theater.getId()).get();
-        if(theaterFromDB==null){
+    public Theater EditTheater(Theater theater) {
+        Theater theaterFromDB = theaterRepository.findById(theater.getId()).get();
+        if (theaterFromDB == null) {
             return null;
         }
         theaterRepository.save(theater);
         return theater;
     }
 
-    public void DeleteTheater(Theater theater){
+    public void DeleteTheater(Theater theater) {
         Integer theaterId = theaterRepository.findById(theater.getId()).get().getId();
-        if(theaterId!=null){
+        if (theaterId != null) {
             theaterRepository.deleteById(theaterId);
         }
     }
