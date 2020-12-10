@@ -19,7 +19,7 @@ public class ActorService {
     public ActorService() {
     }
 
-    public Actor LoadActorByName(String name) {
+    public Actor loadActorByName(String name) {
         Actor actor = actorRepository.findByName(name);
 
         if (actor == null) {

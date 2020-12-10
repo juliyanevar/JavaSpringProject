@@ -22,7 +22,7 @@ public class PerformanceService {
     public PerformanceService() {
     }
 
-    public Performance LoadPerformanceByTitle(String title) {
+    public Performance loadPerformanceByTitle(String title) {
         Performance performance = performanceRepository.findByTitle(title);
 
         if (performance == null) {
@@ -33,7 +33,7 @@ public class PerformanceService {
         return performance;
     }
 
-    public List<Performance> LoadPerformanceByGenre(String genre) {
+    public List<Performance> loadPerformanceByGenre(String genre) {
         List<Performance> performances = performanceRepository.findByGenre(genre);
 
         if (performances == null) {
@@ -43,7 +43,7 @@ public class PerformanceService {
         return performances;
     }
 
-    public List<Performance> LoadPerformanceByTheater(Theater theater) {
+    public List<Performance> loadPerformanceByTheater(Theater theater) {
         List<Performance> performances = performanceRepository.findByTheater(theater);
 
         if (performances == null) {
@@ -53,7 +53,7 @@ public class PerformanceService {
         return performances;
     }
 
-    public List<Performance> LoadPerformanceByDate(Date date) {
+    public List<Performance> loadPerformanceByDate(Date date) {
         List<Performance> performances = performanceRepository.findByDate(date);
 
         if (performances == null) {
@@ -63,7 +63,7 @@ public class PerformanceService {
         return performances;
     }
 
-    public List<Performance> LoadPerformanceByTime(Time time) {
+    public List<Performance> loadPerformanceByTime(Time time) {
         List<Performance> performances = performanceRepository.findByTime(time);
 
         if (performances == null) {

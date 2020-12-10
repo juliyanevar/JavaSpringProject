@@ -1,23 +1,14 @@
 package by.nevar.theatre.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
-import java.util.List;
+import org.springframework.security.core.GrantedAuthority;
 
-@Entity
-@Table(name = "Roles")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class Role {
-    @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    private Integer id;
+public enum Role implements GrantedAuthority {
+    USER,ADMIN;
 
-    @Column(name = "name")
-    private String name;
+    @Override
+    public String getAuthority() {
+        return name();
+    }
 }
 

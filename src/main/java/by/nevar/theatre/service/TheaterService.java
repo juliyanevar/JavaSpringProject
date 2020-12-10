@@ -15,7 +15,7 @@ public class TheaterService {
     public TheaterService(){
     }
 
-    public Theater LoadTheaterByName(String name) {
+    public Theater loadTheaterByName(String name) {
         Theater theater = theaterRepository.findByName(name);
 
         if (theater == null) {
