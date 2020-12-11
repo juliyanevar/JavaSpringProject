@@ -130,7 +130,7 @@ public class AdminRestControllerV1 {
         return toAdminPage(model);
     }
     //------------------------
-    @PostMapping("/AddCTheater")
+    @PostMapping("/AddTheater")
     public ModelAndView addTheater(
             @ModelAttribute("TheaterForm") TheaterForm form,
             BindingResult bindingResult,

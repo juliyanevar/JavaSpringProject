@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+    <title></title>
+</head>
+<body>
+<div>
+    <form method="post" action="performances">
+        <input type="text" name="title" placeholder="Enter title of the performance">
+        <input type="text" name="genre" placeholder="Enter genre of the performance">
+        <input type="text" name="theater" placeholder="Enter theater">
+        <input type="text" name="date" placeholder="Enter date of the performance">
+        <input type="text" name="time" placeholder="Enter time of the performance">
+        <button type="submit">Add performance</button>
+    </form>
+    <form method="post" action="filter">
+        <input type="text" name="filter" placeholder="Enter title of the game">
+        <button type="submit">Find performance</button>
+    </form>
+</div>
+
+<div>Performance list:
+    <table>
+        <tr>
+            <th><h1>Performance</h1></th>
+            <th><h1>Genre</h1></th>
+            <th><h1>Theater</h1></th>
+            <th><h1>Date</h1></th>
+            <th><h1>Time</h1></th>
+        </tr>
+        <tr th:each="performance : ${performances}">
+            <td th:utext="${performance.title}"></td>
+            <td th:utext="${performance.genre}"></td>
+            <td th:utext="${performance.theater.name}"></td>
+            <td th:utext="${performance.date}"></td>
+            <td th:utext="${performance.time}"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
