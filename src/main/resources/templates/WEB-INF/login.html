@@ -12,16 +12,16 @@
 <div th:if="${param.logout}">
     You have been logged out.
 </div>
-<form th:action="@{/api/v1/auth/registrate}" th:object="${form}" method="post">
+<form th:action="@{/api/v1/auth/login}" th:object="${form}" method="post">
     <div><label> User Name : <input type="text" th:field="*{username}" name="username"/> </label></div>
     <div><td th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Name Error</td></div>
     <div><label> Password: <input type="password" th:field="*{password}" name="password"/> </label></div>
     <div><td th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password Error</td></div>
-    <div><input type="submit" value="Sign Up"/></div>
+    <div><input type="submit" value="Sign In"/></div>
 </form>
 <div th:if="${errorMessage}" th:utext="${errorMessage}"
      style="color:red;font-style:italic;">
 </div>
-<h2><a href="/api/v1/auth/login">Login</a></h2>
+<h2><a href="/api/v1/auth/registration">Registration</a></h2>
 </body>
 </html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<div>
+    <div>
+        <form th:action="@{AddActor}" th:object="${ActorForm}" method="post">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor">
+            <button type="submit">Add actor</button>
+        </form>
+        <form th:action="@{ActorChange}" th:object="${ActorForm}" method="post">
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of actor">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor">
+            <button type="submit">Change actor</button>
+        </form>
+        <form th:action="@{DeleteActor}" th:object="${ActorForm}" method="post">
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of actor">
+            <button type="submit">Delete actor</button>
+        </form>
+        <form method="post" action="ActorFilter">
+            <input type="text" name="filter" placeholder="Enter name of actor">
+            <button type="submit">Find actor</button>
+        </form>
+    </div>
+
+    <div>Actor list:
+        <table>
+            <tr>
+                <th><h1>ID</h1></th>
+                <th><h1>Actor</h1></th>
+            </tr>
+            <tr th:each="actor : ${actors}">
+                <td th:utext="${actor.id}"></td>
+                <td th:utext="${actor.name}"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div>
+    <div>
+        <form th:action="@{AddTheater}" th:object="${TheaterForm}" method="post">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
+            <button type="submit">Add theater</button>
+        </form>
+        <form th:action="@{ChangeTheater}" th:object="${TheaterForm}" method="post">
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
+            <button type="submit">Change theater</button>
+        </form>
+        <form th:action="@{DeleteTheater}" th:object="${TheaterForm}" method="post">
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
+            <button type="submit">Delete theater</button>
+        </form>
+        <form method="post" action="TheaterFilter">
+            <input type="text" name="filter" placeholder="Enter name of the theater">
+            <button type="submit">Find theater</button>
+        </form>
+    </div>
+
+    <div>Theater list:
+        <table>
+            <tr>
+                <th><h1>ID</h1></th>
+                <th><h1>Theater</h1></th>
+            </tr>
+            <tr th:each="theater : ${theaters}">
+                <td th:utext="${theater.id}"></td>
+                <td th:utext="${theater.name}"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

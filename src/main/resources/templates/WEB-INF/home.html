@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<h1>Welcome!</h1>
+<div th:if="${isAdmin}">
+    <form th:action="@{/api/v1/admin/home}" method="get">
+        <input type="hidden" th:name="token" th:value="${token}"/>
+        <input type="submit" value="To admin page"/>
+    </form>
+</div>
+<span th:utext="${username}"></span><br>
+<span th:utext="${token}"></span>
+<div class="container">
+    <form th:action="@{/api/v1/users/performances}" method="get">
+        <input type="hidden" th:name="token" th:value="${token}"/>
+        <input type="submit" value="Performance list"/>
+    </form>
+</div>
+<a href="login">
+    Sign Out
+</a>
+<input id="token" type="hidden" th:value="${token}">
+<script>
+    let tok = document.getElementById('token').value;
+    if(tok)
+        localStorage.setItem('token',tok);
+</script>
+</body>
+</html>

@@ -20,7 +20,7 @@ public class UserService implements UserDetailsService {
     @Autowired
     private IUserRepository userRepository;
 
-    //@Autowired
+    @Autowired
     private PasswordEncoder passwordEncoder;
 
     @Autowired
