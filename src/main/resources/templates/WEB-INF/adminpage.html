@@ -6,6 +6,36 @@
 </head>
 <body>
 <div>
+<!--    <div>-->
+<!--        <form th:action="@{AddPerformance}" th:object="${PerformanceForm}" method="post">-->
+<!--            <input type="text" th:field="*{title}" name="title" placeholder="Enter title of the performance">-->
+<!--            <input type="text" th:field="*{genre}" name="genre" placeholder="Enter genre of the performance">-->
+<!--            <input type="text" th:field="*{theater}" name="theater" placeholder="Enter theater">-->
+<!--            <input type="text" th:field="*{date}" name="date" placeholder="Enter date of the performance">-->
+<!--            <input type="text" th:field="*{time}" name="time" placeholder="Enter time of the performance">-->
+<!--            <button type="submit">Add performance</button>-->
+<!--        </form>-->
+<!--    </div>-->
+    <div>Performance list:
+        <table>
+            <tr>
+                <th><h1>Performance</h1></th>
+                <th><h1>Genre</h1></th>
+                <th><h1>Theater</h1></th>
+                <th><h1>Date</h1></th>
+                <th><h1>Time</h1></th>
+            </tr>
+            <tr th:each="performance : ${performances}">
+                <td th:utext="${performance.title}"></td>
+                <td th:utext="${performance.genre}"></td>
+                <td th:utext="${performance.theater.name}"></td>
+                <td th:utext="${performance.date}"></td>
+                <td th:utext="${performance.time}"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div>
     <div>
         <form th:action="@{AddActor}" th:object="${ActorForm}" method="post">
             <input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor">

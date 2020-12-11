@@ -6,6 +6,7 @@ import by.nevar.theatre.models.User;
 import by.nevar.theatre.repository.IUserRepository;
 import by.nevar.theatre.security.JwtTokenProvider;
 import by.nevar.theatre.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -26,7 +27,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.stream.Collector;
 
-
+@Slf4j
 @RestController
 @RequestMapping(value = "/api/v1/auth/")
 public class AuthenticationRestControllerV1 {
@@ -54,6 +55,7 @@ public class AuthenticationRestControllerV1 {
         ModelAndView modelAndView = new ModelAndView("login");
         AuthenticationRequestDto form = new AuthenticationRequestDto();
         model.addAttribute("form", form);
+        log.info("/api/v1/auth/login was called");
         return modelAndView;
     }
 
@@ -62,6 +64,7 @@ public class AuthenticationRestControllerV1 {
         ModelAndView modelAndView = new ModelAndView("registration");
         AuthenticationRequestDto form = new AuthenticationRequestDto();
         model.addAttribute("form", form);
+        log.info("/api/v1/auth/registration was called");
         return modelAndView;
     }
 
@@ -93,11 +96,13 @@ public class AuthenticationRestControllerV1 {
             response.setViewName("home");
 
             response.addObject("isAdmin", user.getRoles().contains(Role.ADMIN));
-
+            log.info("/api/v1/auth/login was called");
             return response;
+
         } catch (AuthenticationException e) {
             throw new BadCredentialsException("Invalid username or password");
         }
+
     }
 
     @PostMapping("/registrate")
@@ -124,9 +129,11 @@ public class AuthenticationRestControllerV1 {
                 return response;
             }
             response.setViewName("login");
+            log.info("/api/v1/auth/registrate was called");
             return response;
         } catch (AuthenticationException e) {
             throw new BadCredentialsException("Invalid username or password");
         }
+
     }
 }

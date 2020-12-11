@@ -5,6 +5,7 @@ import by.nevar.theatre.models.Performance;
 import by.nevar.theatre.models.User;
 import by.nevar.theatre.repository.IPerformanceRepository;
 import by.nevar.theatre.repository.IUserRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.Enumeration;
 
+@Slf4j
 @RestController
 @RequestMapping(value = "/api/v1/users/")
 public class UserRestControllerV1 {
@@ -37,6 +39,7 @@ public class UserRestControllerV1 {
         model.addAttribute("performances", performances);
 
         modelAndView.setViewName("performances");
+        log.info("/api/v1/users/performances was called");
         return modelAndView;
     }
 

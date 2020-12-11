@@ -17,8 +17,8 @@ import java.util.List;
 @NoArgsConstructor
 public class PerformanceForm {
     private Integer id;
-    private String Title;
-    private String Genre;
+    private String title;
+    private String genre;
     private Theater theater;
     private Date date;
     private Time time;

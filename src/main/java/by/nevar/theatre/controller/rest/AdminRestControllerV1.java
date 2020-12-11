@@ -1,13 +1,18 @@
 package by.nevar.theatre.controller.rest;
 
 import by.nevar.theatre.forms.ActorForm;
+import by.nevar.theatre.forms.PerformanceForm;
 import by.nevar.theatre.forms.TheaterForm;
 import by.nevar.theatre.models.Actor;
+import by.nevar.theatre.models.Performance;
 import by.nevar.theatre.models.Theater;
 import by.nevar.theatre.repository.IActorRepository;
+import by.nevar.theatre.repository.IPerformanceRepository;
 import by.nevar.theatre.repository.ITheaterRepository;
 import by.nevar.theatre.service.ActorService;
+import by.nevar.theatre.service.PerformanceService;
 import by.nevar.theatre.service.TheaterService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.validation.Valid;
 import java.util.List;
 
-
+@Slf4j
 @RestController
 @RequestMapping(value = "/api/v1/admin/")
 @PreAuthorize("hasAuthority('ADMIN')")
@@ -39,16 +44,22 @@ public class AdminRestControllerV1 {
 
     @Autowired
     private TheaterService theaterService;
-//
-//    @Autowired
-//    private RatingRepository ratingRepository;
-//
-//    @Autowired
-//    private RatingService ratingService;
+
+
+    @Autowired
+    private IPerformanceRepository performanceRepository;
+
+
+    @Autowired
+    private PerformanceService performanceService;
 
     @Autowired
     public AdminRestControllerV1() {
     }
+
+
+
+
 
 //    @GetMapping(value = "{id}")
 //    public ResponseEntity<UserDto> getUserById(@PathVariable(name = "id") Integer id) {
@@ -71,10 +82,29 @@ public class AdminRestControllerV1 {
         model.addAttribute("actors", actors);
 
         Iterable<Theater> theaters = theaterRepository.findAll();
-        model.addAttribute("championships", theaters);
+        model.addAttribute("theaters", theaters);
+
+        Iterable<Performance> performances = performanceRepository.findAll();
+        model.addAttribute("performances", performances);
+        log.info("/api/v1/admin/home was called");
 
         return toAdminPage(model);
     }
+
+    @PostMapping("/AddPerformance")
+    public ModelAndView addPerformance(
+            @ModelAttribute("PerformanceForm") PerformanceForm form,
+            BindingResult bindingResult,
+            Model model) {
+        performanceService.AddNewPerformance(performanceService.FromPerformanceForm(form));
+
+        Iterable<Performance> performances = performanceRepository.findAll();
+        model.addAttribute("performances", performances);
+        log.info("/api/v1/admin/AddPerformance was called");
+
+        return toAdminPage(model);
+    }
+
 
     @PostMapping("/AddActor")
     public ModelAndView addActor(
@@ -85,6 +115,7 @@ public class AdminRestControllerV1 {
 
         Iterable<Actor> actors = actorRepository.findAll();
         model.addAttribute("actors", actors);
+        log.info("/api/v1/admin/AddActor was called");
 
         return toAdminPage(model);
     }
@@ -98,6 +129,7 @@ public class AdminRestControllerV1 {
 
         Iterable<Actor> actors = actorRepository.findAll();
         model.addAttribute("actors", actors);
+        log.info("/api/v1/admin/ChangeActor was called");
 
         return toAdminPage(model);
     }
@@ -111,6 +143,7 @@ public class AdminRestControllerV1 {
 
         Iterable<Actor> actors = actorRepository.findAll();
         model.addAttribute("actors", actors);
+        log.info("/api/v1/admin/DeleteActor was called");
 
         return toAdminPage(model);
     }
@@ -127,6 +160,7 @@ public class AdminRestControllerV1 {
             actors = actorRepository.findAll();
         }
         model.addAttribute("actors", actors);
+        log.info("/api/v1/admin/ActorFilter was called");
         return toAdminPage(model);
     }
     //------------------------
@@ -139,6 +173,7 @@ public class AdminRestControllerV1 {
 
         Iterable<Theater> theaters = theaterRepository.findAll();
         model.addAttribute("theaters", theaters);
+        log.info("/api/v1/admin/AddTheater was called");
 
         return toAdminPage(model);
     }
@@ -152,6 +187,7 @@ public class AdminRestControllerV1 {
 
         Iterable<Theater> theaters = theaterRepository.findAll();
         model.addAttribute("theaters", theaters);
+        log.info("/api/v1/admin/ChangeTheater was called");
 
         return toAdminPage(model);
     }
@@ -165,6 +201,7 @@ public class AdminRestControllerV1 {
 
         Iterable<Theater> theaters = theaterRepository.findAll();
         model.addAttribute("theaters", theaters);
+        log.info("/api/v1/admin/DeleteTheater was called");
 
         return toAdminPage(model);
     }
@@ -181,6 +218,7 @@ public class AdminRestControllerV1 {
             theaters = theaterRepository.findAll();
         }
         model.addAttribute("theaters", theaters);
+        log.info("/api/v1/admin/TheaterFilter was called");
         return toAdminPage(model);
     }
     //------------------------
