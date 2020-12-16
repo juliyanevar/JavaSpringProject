@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <meta charset="UTF-8">
+    <script th:src="@{/js/registration.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse" style="background-color: rgb(170, 159, 138);">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="username" href="/" style="color: #272125"></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a onclick="logout()" style="color: #272125">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div style="width: fit-content;margin: 0 auto;">
+    <div class="for" style="margin-top: 50px;margin-left: 100px">
+        <div id="wrapper">
+            <div>
+                <h3 style="text-align:center;">Add new championship</h3>
+                <input style="margin-top: 20px; margin-bottom: 10px; background-color: rgba(255,255,255,.2); color: white;"
+                       id="addChampionshipName" type="text" class="white" placeholder="Enter new Championship">
+                <button content="Register" onclick="addChampionship()" type="submit">
+                    Add
+                </button>
+            </div>
+            <div style="margin-left: 40px">
+                <h3 style="text-align:center;">Delete championship</h3>
+                <select id="select-box2"
+                        style="margin-top: 30px; margin-bottom: 12px; background-color: rgba(255,255,255,.2); color: white;"
+                        class="form-control">
+                </select>
+                <button content="Register" onclick="deleteChampionship()" type="submit">
+                    Delete
+                </button>
+            </div>
+        </div>
+        <div style="margin-top: 40px">
+            <h3 style="text-align:center;">Resolve Request</h3>
+            <select style="background-color: rgba(255,255,255,.2); color: white;"
+                    class="form-control" id="Request-select" type="text" onclick="chooseRequest()"
+                    onchange="chooseRequest()">
+            </select>
+            <h4 style="text-align: center">Message</h4>
+            <div style="padding: 10px 15px" id="message">
+
+            </div>
+            <div style="display: flex;flex-direction: row;width: fit-content;margin: 0 auto;">
+                <button content="Register" class="req_butt" style="background: green; margin-right: 40px"
+                        onclick="acceptRequest()" type="submit">
+                    Accept
+                </button>
+                <button content="Register" class="req_butt" onclick="refuseRequest()" type="submit">
+                    Refuse
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
