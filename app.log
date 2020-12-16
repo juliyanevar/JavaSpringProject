@@ -1,5 +1,5 @@
-"2020-12-11 00:02:56 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15108 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 00:02:56 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 00:02:56 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15108 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 00:02:56 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 00:02:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 00:02:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 4 JPA repository interfaces.
 ""2020-12-11 00:02:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -33,7 +33,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field passwordEncoder in by.nevar.theatre.service.UserService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+Field passwordEncoder in by.nevar.gamefinder.service.UserService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -43,8 +43,8 @@ Action:
 
 Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
 
-""2020-12-11 00:03:41 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 18188 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 00:03:41 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 00:03:41 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 18188 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 00:03:41 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 00:03:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 00:03:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 4 JPA repository interfaces.
 ""2020-12-11 00:03:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -68,9 +68,9 @@ Consider defining a bean of type 'org.springframework.security.crypto.password.P
 ""2020-12-11 00:03:44 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 00:03:44 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 00:03:44 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 00:03:44 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.624 seconds (JVM running for 4.244)
-""2020-12-11 00:10:35 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 14924 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 00:10:35 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 00:03:44 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.624 seconds (JVM running for 4.244)
+""2020-12-11 00:10:35 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 14924 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 00:10:35 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 00:10:35 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 00:10:35 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 4 JPA repository interfaces.
 ""2020-12-11 00:10:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -94,9 +94,9 @@ Consider defining a bean of type 'org.springframework.security.crypto.password.P
 ""2020-12-11 00:10:37 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 00:10:37 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 00:10:37 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 00:10:37 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.073 seconds (JVM running for 3.72)
-""2020-12-11 01:04:53 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16720 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:04:53 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 00:10:37 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.073 seconds (JVM running for 3.72)
+""2020-12-11 01:04:53 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16720 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:04:53 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:04:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:05:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 318ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:05:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -143,9 +143,9 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at by.nevar.theatre.TheatreApplication.main(TheatreApplication.java:10)
+	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.NullPointerException: null
-	at by.nevar.theatre.security.JwtTokenProvider.init(JwtTokenProvider.java:34)
+	at by.nevar.gamefinder.security.JwtTokenProvider.init(JwtTokenProvider.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -154,8 +154,8 @@ Caused by: java.lang.NullPointerException: null
 	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
 	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
 	... 19 common frames omitted
-"2020-12-11 01:06:19 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17856 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:06:19 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 01:06:19 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17856 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:06:19 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:06:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:06:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:06:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -201,7 +201,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at by.nevar.theatre.TheatreApplication.main(TheatreApplication.java:10)
+	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.token.secret' in value "${jwt.token.secret}"
 	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
 	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
@@ -215,8 +215,8 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 18 common frames omitted
-"2020-12-11 01:07:18 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15972 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:07:18 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 01:07:18 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15972 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:07:18 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:07:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:07:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:07:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -262,7 +262,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at by.nevar.theatre.TheatreApplication.main(TheatreApplication.java:10)
+	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.token.secret' in value "${jwt.token.secret}"
 	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
 	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
@@ -276,8 +276,8 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 18 common frames omitted
-"2020-12-11 01:10:06 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 6268 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:10:06 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 01:10:06 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 6268 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:10:06 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:10:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:10:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:10:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -323,7 +323,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at by.nevar.theatre.TheatreApplication.main(TheatreApplication.java:10)
+	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.token.secret' in value "${jwt.token.secret}"
 	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
 	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
@@ -337,8 +337,8 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 18 common frames omitted
-"2020-12-11 01:10:48 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9880 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:10:48 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 01:10:48 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9880 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:10:48 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:10:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:10:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:10:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -384,7 +384,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at by.nevar.theatre.TheatreApplication.main(TheatreApplication.java:10)
+	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.token.expired' in value "${jwt.token.expired}"
 	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
 	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
@@ -398,8 +398,8 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 18 common frames omitted
-"2020-12-11 01:11:06 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 11232 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:11:06 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 01:11:06 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 11232 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:11:06 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:11:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:11:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:11:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -446,9 +446,9 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at by.nevar.theatre.TheatreApplication.main(TheatreApplication.java:10)
+	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.NullPointerException: null
-	at by.nevar.theatre.security.JwtTokenProvider.init(JwtTokenProvider.java:31)
+	at by.nevar.gamefinder.security.JwtTokenProvider.init(JwtTokenProvider.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -457,8 +457,8 @@ Caused by: java.lang.NullPointerException: null
 	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
 	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
 	... 19 common frames omitted
-"2020-12-11 01:13:36 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17856 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:13:36 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 01:13:36 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17856 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:13:36 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:13:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:13:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:13:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -504,7 +504,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at by.nevar.theatre.TheatreApplication.main(TheatreApplication.java:10)
+	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.token.secret' in value "${jwt.token.secret}"
 	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
 	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
@@ -518,8 +518,8 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 18 common frames omitted
-"2020-12-11 01:16:01 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16076 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:16:01 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 01:16:01 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16076 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:16:01 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:16:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:16:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:16:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -565,7 +565,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at by.nevar.theatre.TheatreApplication.main(TheatreApplication.java:10)
+	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.token.secret' in value "${jwt.token.secret}"
 	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
 	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
@@ -579,8 +579,8 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 18 common frames omitted
-"2020-12-11 01:18:13 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9552 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:18:14 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 01:18:13 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9552 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:18:14 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:18:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:18:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:18:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -604,9 +604,9 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 ""2020-12-11 01:18:17 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 01:18:17 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 01:18:18 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 01:18:18 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 5.586 seconds (JVM running for 6.499)
-""2020-12-11 01:28:26 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9788 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:28:26 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 01:18:18 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 5.586 seconds (JVM running for 6.499)
+""2020-12-11 01:28:26 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9788 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:28:26 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:28:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:28:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:28:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -630,9 +630,9 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 ""2020-12-11 01:28:29 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 01:28:29 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 01:28:29 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 01:28:29 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.305 seconds (JVM running for 4.133)
-""2020-12-11 01:42:57 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 10360 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 01:42:57 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 01:28:29 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.305 seconds (JVM running for 4.133)
+""2020-12-11 01:42:57 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 10360 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 01:42:57 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 01:42:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 01:42:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 4 JPA repository interfaces.
 ""2020-12-11 01:42:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -656,9 +656,9 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 ""2020-12-11 01:42:59 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 01:42:59 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 01:43:00 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 01:43:00 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.284 seconds (JVM running for 4.151)
-""2020-12-11 02:31:07 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15592 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 02:31:07 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 01:43:00 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.284 seconds (JVM running for 4.151)
+""2020-12-11 02:31:07 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15592 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 02:31:07 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 02:31:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 02:31:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 4 JPA repository interfaces.
 ""2020-12-11 02:31:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -682,9 +682,9 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 ""2020-12-11 02:31:10 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 02:31:10 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 02:31:10 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 02:31:10 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.799 seconds (JVM running for 3.527)
-""2020-12-11 02:39:36 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17984 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 02:39:36 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 02:31:10 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.799 seconds (JVM running for 3.527)
+""2020-12-11 02:39:36 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17984 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 02:39:36 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 02:39:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 02:39:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 4 JPA repository interfaces.
 ""2020-12-11 02:39:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -707,9 +707,9 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 ""2020-12-11 02:39:38 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 02:39:38 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 02:39:38 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 02:39:38 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.647 seconds (JVM running for 3.317)
-""2020-12-11 02:49:28 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 3132 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 02:49:28 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 02:39:38 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.647 seconds (JVM running for 3.317)
+""2020-12-11 02:49:28 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 3132 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 02:49:28 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 02:49:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 02:49:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59ms. Found 4 JPA repository interfaces.
 ""2020-12-11 02:49:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -732,7 +732,7 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jw
 ""2020-12-11 02:49:31 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 02:49:31 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 02:49:31 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 02:49:31 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 4.125 seconds (JVM running for 4.805)
+""2020-12-11 02:49:31 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 4.125 seconds (JVM running for 4.805)
 ""2020-12-11 02:49:46 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 02:49:47 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "login": An error happened during template parsing (template: "templates/WEB-INF/login.html")
 "org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/login.html")
@@ -1337,8 +1337,8 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 02:53:01 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 3260 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 02:53:01 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 02:53:01 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 3260 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 02:53:01 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 02:53:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 02:53:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 4 JPA repository interfaces.
 ""2020-12-11 02:53:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -1361,12 +1361,12 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 ""2020-12-11 02:53:03 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 02:53:03 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 02:53:03 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 02:53:03 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.689 seconds (JVM running for 3.366)
+""2020-12-11 02:53:03 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.689 seconds (JVM running for 3.366)
 ""2020-12-11 02:53:08 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 02:53:30 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1448,8 +1448,8 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 02:58:48 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17720 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 02:58:48 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 02:58:48 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17720 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 02:58:48 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 02:58:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 02:58:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 4 JPA repository interfaces.
 ""2020-12-11 02:58:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -1472,7 +1472,7 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 ""2020-12-11 02:58:51 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 02:58:51 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 02:58:51 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 02:58:51 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.801 seconds (JVM running for 3.556)
+""2020-12-11 02:58:51 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.801 seconds (JVM running for 3.556)
 ""2020-12-11 02:59:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 02:59:00 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "login": An error happened during template parsing (template: "templates/WEB-INF/login.html")
 "org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/login.html")
@@ -1691,8 +1691,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 03:02:00 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 13292 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:02:00 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 03:02:00 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 13292 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:02:00 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:02:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:02:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:02:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -1715,12 +1715,12 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:02:03 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:02:03 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:02:03 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:02:03 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.863 seconds (JVM running for 4.001)
+""2020-12-11 03:02:03 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.863 seconds (JVM running for 4.001)
 ""2020-12-11 03:02:44 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:02:44 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1806,8 +1806,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:03:07 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 ""2020-12-11 03:03:07 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2020-12-11 03:03:07 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-""2020-12-11 03:04:14 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16928 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:04:14 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 03:04:14 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16928 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:04:14 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:04:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:04:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:04:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -1830,13 +1830,13 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:04:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
 ""2020-12-11 03:04:17 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
 ""2020-12-11 03:04:17 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:04:17 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.338 seconds (JVM running for 4.204)
+""2020-12-11 03:04:17 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.338 seconds (JVM running for 4.204)
 ""2020-12-11 03:04:45 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:05:40 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s352ms503µs900ns).
 ""2020-12-11 03:06:33 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1922,8 +1922,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:06:34 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 ""2020-12-11 03:06:34 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2020-12-11 03:06:34 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-""2020-12-11 03:06:52 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 14812 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:06:52 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 03:06:52 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 14812 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:06:52 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:06:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:06:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:06:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -1946,12 +1946,12 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:06:55 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:06:55 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:06:55 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:06:55 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.051 seconds (JVM running for 3.865)
+""2020-12-11 03:06:55 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.051 seconds (JVM running for 3.865)
 ""2020-12-11 03:07:04 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:08:19 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2037,8 +2037,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:08:19 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 ""2020-12-11 03:08:19 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2020-12-11 03:08:19 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-""2020-12-11 03:08:22 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16596 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:08:22 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 03:08:22 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16596 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:08:22 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:08:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:08:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:08:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -2061,12 +2061,12 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:08:25 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:08:25 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:08:25 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:08:25 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.01 seconds (JVM running for 3.927)
+""2020-12-11 03:08:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.01 seconds (JVM running for 3.927)
 ""2020-12-11 03:08:31 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:09:00 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2152,8 +2152,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:09:01 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 ""2020-12-11 03:09:01 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2020-12-11 03:09:01 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-""2020-12-11 03:09:04 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17264 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:09:04 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 03:09:04 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17264 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:09:04 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:09:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:09:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:09:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -2176,12 +2176,12 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:09:06 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:09:06 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:09:07 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:09:07 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.381 seconds (JVM running for 4.334)
+""2020-12-11 03:09:07 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.381 seconds (JVM running for 4.334)
 ""2020-12-11 03:09:09 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:10:39 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2267,8 +2267,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:10:40 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 ""2020-12-11 03:10:40 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2020-12-11 03:10:40 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-""2020-12-11 03:10:42 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9720 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:10:42 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 03:10:42 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9720 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:10:42 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:10:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:10:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:10:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -2291,12 +2291,12 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:10:44 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:10:44 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:10:45 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:10:45 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.126 seconds (JVM running for 4.11)
+""2020-12-11 03:10:45 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.126 seconds (JVM running for 4.11)
 ""2020-12-11 03:11:05 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:11:12 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2380,8 +2380,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.lang.Thread.run(Thread.java:834)
 "2020-12-11 03:11:32 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2466,8 +2466,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 "2020-12-11 03:12:36 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s50ms821µs500ns).
 ""2020-12-11 03:12:36 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
-	at by.nevar.theatre.service.UserService.registrate(UserService.java:49)
-	at by.nevar.theatre.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
+	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2553,8 +2553,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:12:36 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 ""2020-12-11 03:12:36 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2020-12-11 03:12:36 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-""2020-12-11 03:12:48 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 11296 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:12:48 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 03:12:48 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 11296 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:12:48 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:12:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:12:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:12:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -2577,7 +2577,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:12:50 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:12:50 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:12:50 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:12:50 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.947 seconds (JVM running for 3.661)
+""2020-12-11 03:12:50 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.947 seconds (JVM running for 3.661)
 ""2020-12-11 03:13:01 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:13:54 [http-nio-8080-exec-3] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-3] Exception processing template "home": An error happened during template parsing (template: "templates/WEB-INF/home.html")
 "org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/home.html")
@@ -2748,8 +2748,8 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 03:43:47 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 13652 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:43:47 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 03:43:47 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 13652 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:43:47 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:43:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:43:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:43:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -2772,7 +2772,7 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 ""2020-12-11 03:43:50 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:43:50 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:43:50 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:43:50 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.364 seconds (JVM running for 4.085)
+""2020-12-11 03:43:50 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.364 seconds (JVM running for 4.085)
 ""2020-12-11 03:44:09 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:44:10 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "home": An error happened during template parsing (template: "templates/WEB-INF/home.html")
 "org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/home.html")
@@ -2943,8 +2943,8 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 03:47:06 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 7240 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:47:06 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 03:47:06 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 7240 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:47:06 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:47:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:47:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:47:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -2967,7 +2967,7 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 ""2020-12-11 03:47:08 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:47:08 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:47:09 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:47:09 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.796 seconds (JVM running for 3.497)
+""2020-12-11 03:47:09 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.796 seconds (JVM running for 3.497)
 ""2020-12-11 03:47:14 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:47:47 [http-nio-8080-exec-4] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-4] Exception processing template "adminpage": An error happened during template parsing (template: "templates/WEB-INF/adminpage.html" - line 16, col 13)
 "org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/adminpage.html" - line 16, col 13)
@@ -3262,8 +3262,8 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 03:50:23 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16328 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:50:23 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 03:50:23 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16328 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:50:23 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:50:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:50:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:50:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -3286,7 +3286,7 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 03:50:25 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:50:25 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:50:25 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:50:25 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.929 seconds (JVM running for 3.664)
+""2020-12-11 03:50:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.929 seconds (JVM running for 3.664)
 ""2020-12-11 03:50:33 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 03:50:33 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "adminpage": An error happened during template parsing (template: "templates/WEB-INF/adminpage.html" - line 16, col 13)
 "org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/adminpage.html" - line 16, col 13)
@@ -3874,8 +3874,8 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 03:53:17 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17640 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 03:53:17 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 03:53:17 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17640 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 03:53:17 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 03:53:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 03:53:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 4 JPA repository interfaces.
 ""2020-12-11 03:53:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -3898,10 +3898,10 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 03:53:20 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 03:53:20 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 03:53:20 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 03:53:20 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.772 seconds (JVM running for 4.093)
+""2020-12-11 03:53:20 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.772 seconds (JVM running for 4.093)
 ""2020-12-11 03:53:28 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2020-12-11 04:12:11 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 7452 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 04:12:11 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 04:12:11 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 7452 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 04:12:11 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 04:12:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 04:12:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 4 JPA repository interfaces.
 ""2020-12-11 04:12:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -3924,10 +3924,10 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 04:12:14 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 04:12:14 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 04:12:14 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 04:12:14 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.83 seconds (JVM running for 3.584)
+""2020-12-11 04:12:14 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.83 seconds (JVM running for 3.584)
 ""2020-12-11 04:12:19 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2020-12-11 04:23:39 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 3884 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 04:23:39 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 04:23:39 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 3884 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 04:23:39 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 04:23:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 04:23:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 4 JPA repository interfaces.
 ""2020-12-11 04:23:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -3950,10 +3950,10 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 04:23:42 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 04:23:42 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 04:23:42 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 04:23:42 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.897 seconds (JVM running for 3.632)
+""2020-12-11 04:23:42 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.897 seconds (JVM running for 3.632)
 ""2020-12-11 04:23:46 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2020-12-11 04:32:49 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15452 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 04:32:49 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 04:32:49 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15452 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 04:32:49 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 04:32:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 04:32:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 4 JPA repository interfaces.
 ""2020-12-11 04:32:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -3976,10 +3976,10 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 04:32:52 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 04:32:52 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 04:32:52 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 04:32:52 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.651 seconds (JVM running for 3.408)
+""2020-12-11 04:32:52 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.651 seconds (JVM running for 3.408)
 ""2020-12-11 04:33:01 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2020-12-11 04:50:10 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 14652 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 04:50:10 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 04:50:10 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 14652 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 04:50:10 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 04:50:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 04:50:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 4 JPA repository interfaces.
 ""2020-12-11 04:50:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4002,10 +4002,10 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 04:50:12 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 04:50:12 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 04:50:12 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 04:50:12 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 2.71 seconds (JVM running for 3.449)
+""2020-12-11 04:50:12 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 2.71 seconds (JVM running for 3.449)
 ""2020-12-11 04:50:17 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2020-12-11 08:18:05 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16024 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 08:18:06 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 08:18:05 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16024 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 08:18:06 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:18:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 08:18:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 776ms. Found 4 JPA repository interfaces.
 ""2020-12-11 08:18:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4028,9 +4028,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 08:18:45 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 08:18:45 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 08:18:46 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 08:18:46 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 51.621 seconds (JVM running for 73.666)
-""2020-12-11 08:28:38 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17684 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 08:28:38 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 08:18:46 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 51.621 seconds (JVM running for 73.666)
+""2020-12-11 08:28:38 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 17684 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 08:28:38 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:28:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 08:28:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 4 JPA repository interfaces.
 ""2020-12-11 08:28:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4053,15 +4053,15 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 08:28:42 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 08:28:42 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 08:28:43 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 08:28:43 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 5.364 seconds (JVM running for 6.189)
+""2020-12-11 08:28:43 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 5.364 seconds (JVM running for 6.189)
 ""2020-12-11 08:29:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 08:29:00 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:29:07 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/registration was called
 ""2020-12-11 08:29:31 [http-nio-8080-exec-3] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/registrate was called
 ""2020-12-11 08:29:54 [http-nio-8080-exec-5] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:30:14 [http-nio-8080-exec-9] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
-""2020-12-11 08:31:17 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 11172 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 08:31:17 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 08:31:17 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 11172 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 08:31:17 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:31:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 08:31:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121ms. Found 4 JPA repository interfaces.
 ""2020-12-11 08:31:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4084,9 +4084,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 08:31:22 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 08:31:22 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 08:31:23 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 08:31:23 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 6.146 seconds (JVM running for 7.069)
-""2020-12-11 08:32:44 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 18136 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 08:32:44 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 08:31:23 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 6.146 seconds (JVM running for 7.069)
+""2020-12-11 08:32:44 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 18136 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 08:32:44 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:32:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 08:32:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 4 JPA repository interfaces.
 ""2020-12-11 08:32:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4109,13 +4109,13 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 08:32:48 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 08:32:48 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 08:32:48 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 08:32:48 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 4.486 seconds (JVM running for 5.431)
+""2020-12-11 08:32:48 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 4.486 seconds (JVM running for 5.431)
 ""2020-12-11 08:32:56 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 08:32:57 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:33:23 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:33:31 [http-nio-8080-exec-3] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
-""2020-12-11 08:34:11 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 6036 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 08:34:11 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 08:34:11 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 6036 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 08:34:11 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:34:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 08:34:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61ms. Found 4 JPA repository interfaces.
 ""2020-12-11 08:34:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4138,15 +4138,15 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 08:34:14 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 08:34:14 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 08:34:15 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 08:34:15 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 4.087 seconds (JVM running for 4.966)
+""2020-12-11 08:34:15 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 4.087 seconds (JVM running for 4.966)
 ""2020-12-11 08:35:24 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 08:35:24 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:35:33 [http-nio-8080-exec-3] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:35:40 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:35:48 [http-nio-8080-exec-4] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:35:55 [http-nio-8080-exec-5] INFO  b.n.t.c.rest.UserRestControllerV1 - /api/v1/users/performances was called
-""2020-12-11 08:46:25 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9780 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 08:46:25 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 08:46:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9780 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 08:46:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:46:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 08:46:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 4 JPA repository interfaces.
 ""2020-12-11 08:46:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4169,7 +4169,7 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 08:46:28 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 08:46:28 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 08:46:28 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 08:46:28 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.878 seconds (JVM running for 4.768)
+""2020-12-11 08:46:28 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.878 seconds (JVM running for 4.768)
 ""2020-12-11 08:46:46 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 08:46:46 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:46:55 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
@@ -4391,8 +4391,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 08:51:35 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 11840 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 08:51:35 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 08:51:35 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 11840 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 08:51:35 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:51:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 08:51:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112ms. Found 4 JPA repository interfaces.
 ""2020-12-11 08:51:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4415,7 +4415,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 08:51:39 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 08:51:39 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 08:51:40 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 08:51:40 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 4.535 seconds (JVM running for 5.571)
+""2020-12-11 08:51:40 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 4.535 seconds (JVM running for 5.571)
 ""2020-12-11 08:51:44 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 08:51:45 [http-nio-8080-exec-1] INFO  b.n.t.c.rest.AdminRestControllerV1 - /api/v1/admin/home was called
 ""2020-12-11 08:51:45 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "adminpage": An error happened during template parsing (template: "templates/WEB-INF/adminpage.html")
@@ -4855,8 +4855,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 08:54:20 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 14180 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 08:54:20 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 08:54:20 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 14180 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 08:54:20 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:54:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 08:54:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 4 JPA repository interfaces.
 ""2020-12-11 08:54:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -4879,7 +4879,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 08:54:23 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 08:54:23 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 08:54:23 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 08:54:23 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.93 seconds (JVM running for 4.804)
+""2020-12-11 08:54:23 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.93 seconds (JVM running for 4.804)
 ""2020-12-11 08:55:05 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 08:55:05 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:55:13 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
@@ -5101,8 +5101,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 09:02:25 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 13004 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 09:02:25 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 09:02:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 13004 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 09:02:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 09:02:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 09:02:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66ms. Found 4 JPA repository interfaces.
 ""2020-12-11 09:02:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -5125,11 +5125,11 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:02:28 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 09:02:28 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 09:02:28 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 09:02:28 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.735 seconds (JVM running for 4.705)
+""2020-12-11 09:02:28 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.735 seconds (JVM running for 4.705)
 ""2020-12-11 09:02:34 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 09:02:34 [http-nio-8080-exec-1] INFO  b.n.t.c.rest.AdminRestControllerV1 - /api/v1/admin/home was called
-""2020-12-11 09:06:05 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 12960 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 09:06:05 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 09:06:05 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 12960 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 09:06:05 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 09:06:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 09:06:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 134ms. Found 4 JPA repository interfaces.
 ""2020-12-11 09:06:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -5152,7 +5152,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:06:08 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 09:06:08 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 09:06:08 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 09:06:08 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.932 seconds (JVM running for 6.043)
+""2020-12-11 09:06:08 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.932 seconds (JVM running for 6.043)
 ""2020-12-11 09:07:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 09:07:00 [http-nio-8080-exec-1] INFO  b.n.t.c.rest.AdminRestControllerV1 - /api/v1/admin/home was called
 ""2020-12-11 09:07:01 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "adminpage": An error happened during template parsing (template: "templates/WEB-INF/adminpage.html")
@@ -5596,8 +5596,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:10:22 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 ""2020-12-11 09:10:22 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2020-12-11 09:10:22 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-""2020-12-11 09:10:26 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 4832 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 09:10:26 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 09:10:26 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 4832 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 09:10:26 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 09:10:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 09:10:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 4 JPA repository interfaces.
 ""2020-12-11 09:10:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -5620,7 +5620,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:10:29 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 09:10:29 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 09:10:29 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 09:10:29 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.294 seconds (JVM running for 4.415)
+""2020-12-11 09:10:29 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.294 seconds (JVM running for 4.415)
 ""2020-12-11 09:10:48 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 09:10:48 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 09:10:57 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
@@ -5842,8 +5842,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 09:14:32 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 13836 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 09:14:32 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 09:14:32 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 13836 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 09:14:32 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 09:14:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 09:14:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 4 JPA repository interfaces.
 ""2020-12-11 09:14:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -5866,7 +5866,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:14:35 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 09:14:35 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 09:14:35 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 09:14:35 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.232 seconds (JVM running for 4.048)
+""2020-12-11 09:14:35 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.232 seconds (JVM running for 4.048)
 ""2020-12-11 09:14:48 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 09:14:48 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 09:14:57 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
@@ -6088,8 +6088,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 09:15:49 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15548 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 09:15:49 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 09:15:49 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 15548 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 09:15:49 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 09:15:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 09:15:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 4 JPA repository interfaces.
 ""2020-12-11 09:15:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -6112,7 +6112,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:15:52 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 09:15:52 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 09:15:53 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 09:15:53 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 4.258 seconds (JVM running for 5.202)
+""2020-12-11 09:15:53 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 4.258 seconds (JVM running for 5.202)
 ""2020-12-11 09:16:01 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 09:16:01 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 09:16:09 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
@@ -6334,8 +6334,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 09:23:57 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9040 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 09:23:57 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 09:23:57 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9040 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 09:23:57 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 09:23:58 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 09:23:58 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 4 JPA repository interfaces.
 ""2020-12-11 09:23:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -6358,7 +6358,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:23:59 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 09:23:59 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 09:24:00 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 09:24:00 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.353 seconds (JVM running for 4.16)
+""2020-12-11 09:24:00 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.353 seconds (JVM running for 4.16)
 ""2020-12-11 09:24:17 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 09:24:17 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 09:24:26 [http-nio-8080-exec-3] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
@@ -6580,8 +6580,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 09:26:32 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 5968 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 09:26:32 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 09:26:32 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 5968 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 09:26:32 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 09:26:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 09:26:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 4 JPA repository interfaces.
 ""2020-12-11 09:26:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -6604,7 +6604,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:26:35 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 09:26:35 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 09:26:35 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 09:26:35 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 3.49 seconds (JVM running for 4.359)
+""2020-12-11 09:26:35 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 3.49 seconds (JVM running for 4.359)
 ""2020-12-11 09:26:44 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 09:26:44 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 09:26:52 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
@@ -6826,8 +6826,8 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-"2020-12-11 09:27:25 [main] INFO  by.nevar.theatre.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16388 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
-""2020-12-11 09:27:25 [main] INFO  by.nevar.theatre.TheatreApplication - No active profile set, falling back to default profiles: default
+"2020-12-11 09:27:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 16388 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 09:27:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 09:27:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
 ""2020-12-11 09:27:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106ms. Found 4 JPA repository interfaces.
 ""2020-12-11 09:27:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
@@ -6850,9 +6850,475 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 09:27:30 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ""2020-12-11 09:27:30 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 ""2020-12-11 09:27:30 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
-""2020-12-11 09:27:30 [main] INFO  by.nevar.theatre.TheatreApplication - Started TheatreApplication in 5.926 seconds (JVM running for 6.75)
+""2020-12-11 09:27:30 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 5.926 seconds (JVM running for 6.75)
 ""2020-12-11 09:27:57 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-12-11 09:27:57 [http-nio-8080-exec-1] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 09:28:10 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 09:28:14 [http-nio-8080-exec-3] INFO  b.n.t.c.rest.AdminRestControllerV1 - /api/v1/admin/home was called
+""2020-12-11 21:26:02 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 12236 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
+""2020-12-11 21:26:02 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
+""2020-12-11 21:26:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-12-11 21:26:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 380ms. Found 4 JPA repository interfaces.
+""2020-12-11 21:26:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2020-12-11 21:26:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-12-11 21:26:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+""2020-12-11 21:26:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-12-11 21:26:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4421 ms
+""2020-12-11 21:26:06 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-12-11 21:26:06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2020-12-11 21:26:10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2020-12-11 21:26:10 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-12-11 21:26:11 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-12-11 21:26:11 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+""2020-12-11 21:26:11 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2020-12-11 21:26:11 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-12-11 21:26:11 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2020-12-11 21:26:11 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2aea717c, org.springframework.security.web.context.SecurityContextPersistenceFilter@28b523a, org.springframework.security.web.header.HeaderWriterFilter@310d57b1, org.springframework.security.web.authentication.logout.LogoutFilter@47fcefb3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63d677f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44dfdd58, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ca4dce5, org.springframework.security.web.session.SessionManagementFilter@539c4830, org.springframework.security.web.access.ExceptionTranslationFilter@2055833f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fdd97c1]
+""2020-12-11 21:26:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2020-12-11 21:26:13 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+""2020-12-11 21:26:19 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-12-11 21:26:19 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-12-11 21:26:20 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+""2020-12-11 21:26:20 [main] INFO  by.nevar.gamefinder.TheatreApplication - Started TheatreApplication in 18.816 seconds (JVM running for 21.19)
+""2020-12-11 21:26:22 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-12-11 21:26:22 [http-nio-8080-exec-2] INFO  b.n.t.controller.HomeController - / was called
+""2020-12-11 21:26:23 [http-nio-8080-exec-2] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "login": An error happened during template parsing (template: "templates/WEB-INF/login.html")
+"org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/login.html")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.attoparser.ParseException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "login" - line 16, col 49)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 79 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "login" - line 16, col 49)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104)
+	at org.attoparser.HtmlElement.handleStandaloneElementEnd(HtmlElement.java:79)
+	at org.attoparser.HtmlMarkupHandler.handleStandaloneElementEnd(HtmlMarkupHandler.java:241)
+	at org.attoparser.MarkupEventProcessorHandler.handleStandaloneElementEnd(MarkupEventProcessorHandler.java:327)
+	at org.attoparser.ParsingElementMarkupUtil.parseStandaloneElement(ParsingElementMarkupUtil.java:96)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:706)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 81 common frames omitted
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'form' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 94 common frames omitted
+"2020-12-11 21:26:23 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/login.html")] with root cause
+"java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'form' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104)
+	at org.attoparser.HtmlElement.handleStandaloneElementEnd(HtmlElement.java:79)
+	at org.attoparser.HtmlMarkupHandler.handleStandaloneElementEnd(HtmlMarkupHandler.java:241)
+	at org.attoparser.MarkupEventProcessorHandler.handleStandaloneElementEnd(MarkupEventProcessorHandler.java:327)
+	at org.attoparser.ParsingElementMarkupUtil.parseStandaloneElement(ParsingElementMarkupUtil.java:96)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:706)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+"2020-12-11 21:26:53 [http-nio-8080-exec-4] INFO  b.n.t.controller.HomeController - / was called
+""2020-12-11 21:26:53 [http-nio-8080-exec-4] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-4] Exception processing template "login": An error happened during template parsing (template: "templates/WEB-INF/login.html")
+"org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/login.html")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.attoparser.ParseException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "login" - line 16, col 49)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 79 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "login" - line 16, col 49)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104)
+	at org.attoparser.HtmlElement.handleStandaloneElementEnd(HtmlElement.java:79)
+	at org.attoparser.HtmlMarkupHandler.handleStandaloneElementEnd(HtmlMarkupHandler.java:241)
+	at org.attoparser.MarkupEventProcessorHandler.handleStandaloneElementEnd(MarkupEventProcessorHandler.java:327)
+	at org.attoparser.ParsingElementMarkupUtil.parseStandaloneElement(ParsingElementMarkupUtil.java:96)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:706)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 81 common frames omitted
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'form' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 94 common frames omitted
+"2020-12-11 21:26:53 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/login.html")] with root cause
+"java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'form' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104)
+	at org.attoparser.HtmlElement.handleStandaloneElementEnd(HtmlElement.java:79)
+	at org.attoparser.HtmlMarkupHandler.handleStandaloneElementEnd(HtmlMarkupHandler.java:241)
+	at org.attoparser.MarkupEventProcessorHandler.handleStandaloneElementEnd(MarkupEventProcessorHandler.java:327)
+	at org.attoparser.ParsingElementMarkupUtil.parseStandaloneElement(ParsingElementMarkupUtil.java:96)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:706)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+"2020-12-11 21:27:02 [http-nio-8080-exec-3] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/registration was called
+""2020-12-11 21:27:08 [http-nio-8080-exec-6] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
+""2020-12-11 21:27:17 [http-nio-8080-exec-7] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
+""2020-12-11 21:27:21 [http-nio-8080-exec-9] INFO  b.n.t.c.rest.AdminRestControllerV1 - /api/v1/admin/home was called
 "
