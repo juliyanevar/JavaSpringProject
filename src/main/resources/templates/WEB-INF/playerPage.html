@@ -1,29 +1,47 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  <title>Title</title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script th:src="@{/js/PlayerScript.js}"></script>
+    <title>Document</title>
 </head>
 <body>
-
-
-<div>Performance list:
-    <table>
-        <tr>
-            <th><h1>Performance</h1></th>
-            <th><h1>Genre</h1></th>
-            <th><h1>Theater</h1></th>
-            <th><h1>Date</h1></th>
-            <th><h1>Time</h1></th>
-        </tr>
-        <tr th:each="performance : ${performances}">
-            <td th:utext="${performance.title}"></td>
-            <td th:utext="${performance.genre}"></td>
-            <td th:utext="${performance.theater.name}"></td>
-            <td th:utext="${performance.date}"></td>
-            <td th:utext="${performance.time}"></td>
-        </tr>
-    </table>
+<header>
+    <nav class="navbar navbar-inverse" style="background-color: rgb(170, 159, 138);">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="username" href="/" style="color: #272125"></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a onclick="logout()" style="color: #272125">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div style="width: fit-content;margin:40px auto;display: flex;flex-direction: row">
+    <div style="min-width: 300px">
+        <select id="championships"  style="margin-top: 20px; margin-bottom: 10px; background-color: rgba(255,255,255,.2); color: white;" class="form-control">
+        </select>
+        <input type="text" placeholder="Message" id="message" style="margin-top: 20px; margin-bottom: 10px; background-color: rgba(255,255,255,.2); color: white;">
+        <button style="background: green" onclick="MakeReqest()" type="submit">
+            MAKE REQUEST
+        </button>
+    </div>
+    <div id="content" style="min-width: 20%;margin-top: 20px;margin-left: 50px">
+        <input type="email" placeholder="email" id="email" style="margin-top: 20px;width: 100%; margin-bottom: 10px; background-color: rgba(255,255,255,.2); color: white;">
+        <button style="background: green" onclick="ChangeEmail()" type="submit">
+            CHANGE EMAIL
+        </button>
+    </div>
 </div>
 </body>
 </html>

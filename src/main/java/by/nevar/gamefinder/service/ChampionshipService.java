@@ -1,6 +1,7 @@
 package by.nevar.gamefinder.service;
 
 import by.nevar.gamefinder.models.Championship;
+import by.nevar.gamefinder.models.Status;
 import by.nevar.gamefinder.repository.IChampionshipRepository;
 import by.nevar.gamefinder.service.serviceInterfaces.IChampionshipService;
 import lombok.extern.slf4j.Slf4j;

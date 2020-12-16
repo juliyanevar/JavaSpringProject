@@ -1,7 +1,6 @@
-package by.nevar.theatre.security;
+package by.nevar.gamefinder.security.jwt;
 
 import org.springframework.security.core.AuthenticationException;
-
 
 public class JwtAuthenticationException extends AuthenticationException {
     public JwtAuthenticationException(String msg, Throwable t) {

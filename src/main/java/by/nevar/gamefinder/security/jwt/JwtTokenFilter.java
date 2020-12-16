@@ -1,5 +1,4 @@
-package by.nevar.theatre.security;
-
+package by.nevar.gamefinder.security.jwt;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -9,9 +8,7 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class JwtTokenFilter extends GenericFilterBean {
@@ -26,10 +23,13 @@ public class JwtTokenFilter extends GenericFilterBean {
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain filterChain)
             throws IOException, ServletException {
 
+
         String token = jwtTokenProvider.resolveToken((HttpServletRequest) req);
+        System.out.println(token);
+
         if (token != null && jwtTokenProvider.validateToken(token)) {
             Authentication auth = jwtTokenProvider.getAuthentication(token);
-            ((HttpServletResponse) res).addCookie(new Cookie("token",token));
+
             if (auth != null) {
                 SecurityContextHolder.getContext().setAuthentication(auth);
             }

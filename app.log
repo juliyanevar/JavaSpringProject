@@ -145,7 +145,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.NullPointerException: null
-	at by.nevar.gamefinder.security.JwtTokenProvider.init(JwtTokenProvider.java:34)
+	at by.nevar.gamefinder.security.jwt.JwtTokenProvider.init(JwtTokenProvider.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -448,7 +448,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at by.nevar.gamefinder.TheatreApplication.main(TheatreApplication.java:10)
 Caused by: java.lang.NullPointerException: null
-	at by.nevar.gamefinder.security.JwtTokenProvider.init(JwtTokenProvider.java:31)
+	at by.nevar.gamefinder.security.jwt.JwtTokenProvider.init(JwtTokenProvider.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1366,7 +1366,7 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 ""2020-12-11 02:53:30 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1720,7 +1720,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:02:44 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1836,7 +1836,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:06:33 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1951,7 +1951,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:08:19 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2066,7 +2066,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:09:00 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2181,7 +2181,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:10:39 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2296,7 +2296,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:11:12 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2381,7 +2381,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 "2020-12-11 03:11:32 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2467,7 +2467,7 @@ Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain targ
 ""2020-12-11 03:12:36 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 "java.lang.NullPointerException: null
 	at by.nevar.gamefinder.service.UserService.registrate(UserService.java:49)
-	at by.nevar.gamefinder.controller.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
+	at by.nevar.gamefinder.rest.AuthenticationRestControllerV1.registrate(AuthenticationRestControllerV1.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3051,16 +3051,16 @@ Caused by: java.io.FileNotFoundException: ClassLoader resource "templates/WEB-IN
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor>
-            <button type="submit">Change actor</button>
+Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of championship>
+            <button type="submit">Change championship</button>
         </form>
         <form th:action="@{DeleteActor}" th:object="${ActorForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of actor">
-            <button type="submit">Delete actor</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of championship">
+            <button type="submit">Delete championship</button>
         </form>
         <form method="post" action="ActorFilter">
-            <input type="text" name="filter" placeholder="Enter name of actor">
-            <button type="submit">Find actor</button>
+            <input type="text" name="filter" placeholder="Enter name of championship">
+            <button type="submit">Find championship</button>
         </form>
     </div>
 
@@ -3070,9 +3070,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Actor</h1></th>
             </tr>
-            <tr th:each="actor : ${actors}">
-                <td th:utext="${actor.id}"></td>
-                <td th:utext="${actor.name}"></td>
+            <tr th:each="championship : ${actors}">
+                <td th:utext="${championship.id}"></td>
+                <td th:utext="${championship.name}"></td>
             </tr>
         </table>
     </div>
@@ -3080,21 +3080,21 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 <div>
     <div>
         <form th:action="@{AddTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Add theater</button>
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Add status</button>
         </form>
         <form th:action="@{ChangeTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Change theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Change status</button>
         </form>
         <form th:action="@{DeleteTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <button type="submit">Delete theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <button type="submit">Delete status</button>
         </form>
         <form method="post" action="TheaterFilter">
-            <input type="text" name="filter" placeholder="Enter name of the theater">
-            <button type="submit">Find theater</button>
+            <input type="text" name="filter" placeholder="Enter name of the status">
+            <button type="submit">Find status</button>
         </form>
     </div>
 
@@ -3104,9 +3104,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Theater</h1></th>
             </tr>
-            <tr th:each="theater : ${theaters}">
-                <td th:utext="${theater.id}"></td>
-                <td th:utext="${theater.name}"></td>
+            <tr th:each="status : ${theaters}">
+                <td th:utext="${status.id}"></td>
+                <td th:utext="${status.name}"></td>
             </tr>
         </table>
     </div>
@@ -3118,16 +3118,16 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
 	... 79 common frames omitted
 "2020-12-11 03:47:47 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/adminpage.html" - line 16, col 13)] with root cause
-"org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor>
-            <button type="submit">Change actor</button>
+"org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of championship>
+            <button type="submit">Change championship</button>
         </form>
         <form th:action="@{DeleteActor}" th:object="${ActorForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of actor">
-            <button type="submit">Delete actor</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of championship">
+            <button type="submit">Delete championship</button>
         </form>
         <form method="post" action="ActorFilter">
-            <input type="text" name="filter" placeholder="Enter name of actor">
-            <button type="submit">Find actor</button>
+            <input type="text" name="filter" placeholder="Enter name of championship">
+            <button type="submit">Find championship</button>
         </form>
     </div>
 
@@ -3137,9 +3137,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Actor</h1></th>
             </tr>
-            <tr th:each="actor : ${actors}">
-                <td th:utext="${actor.id}"></td>
-                <td th:utext="${actor.name}"></td>
+            <tr th:each="championship : ${actors}">
+                <td th:utext="${championship.id}"></td>
+                <td th:utext="${championship.name}"></td>
             </tr>
         </table>
     </div>
@@ -3147,21 +3147,21 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 <div>
     <div>
         <form th:action="@{AddTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Add theater</button>
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Add status</button>
         </form>
         <form th:action="@{ChangeTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Change theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Change status</button>
         </form>
         <form th:action="@{DeleteTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <button type="submit">Delete theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <button type="submit">Delete status</button>
         </form>
         <form method="post" action="TheaterFilter">
-            <input type="text" name="filter" placeholder="Enter name of the theater">
-            <button type="submit">Find theater</button>
+            <input type="text" name="filter" placeholder="Enter name of the status">
+            <button type="submit">Find status</button>
         </form>
     </div>
 
@@ -3171,9 +3171,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Theater</h1></th>
             </tr>
-            <tr th:each="theater : ${theaters}">
-                <td th:utext="${theater.id}"></td>
-                <td th:utext="${theater.name}"></td>
+            <tr th:each="status : ${theaters}">
+                <td th:utext="${status.id}"></td>
+                <td th:utext="${status.name}"></td>
             </tr>
         </table>
     </div>
@@ -3370,16 +3370,16 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor>
-            <button type="submit">Change actor</button>
+Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of championship>
+            <button type="submit">Change championship</button>
         </form>
         <form th:action="@{DeleteActor}" th:object="${ActorForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of actor">
-            <button type="submit">Delete actor</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of championship">
+            <button type="submit">Delete championship</button>
         </form>
         <form method="post" action="ActorFilter">
-            <input type="text" name="filter" placeholder="Enter name of actor">
-            <button type="submit">Find actor</button>
+            <input type="text" name="filter" placeholder="Enter name of championship">
+            <button type="submit">Find championship</button>
         </form>
     </div>
 
@@ -3389,9 +3389,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Actor</h1></th>
             </tr>
-            <tr th:each="actor : ${actors}">
-                <td th:utext="${actor.id}"></td>
-                <td th:utext="${actor.name}"></td>
+            <tr th:each="championship : ${actors}">
+                <td th:utext="${championship.id}"></td>
+                <td th:utext="${championship.name}"></td>
             </tr>
         </table>
     </div>
@@ -3399,21 +3399,21 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 <div>
     <div>
         <form th:action="@{AddTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Add theater</button>
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Add status</button>
         </form>
         <form th:action="@{ChangeTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Change theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Change status</button>
         </form>
         <form th:action="@{DeleteTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <button type="submit">Delete theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <button type="submit">Delete status</button>
         </form>
         <form method="post" action="TheaterFilter">
-            <input type="text" name="filter" placeholder="Enter name of the theater">
-            <button type="submit">Find theater</button>
+            <input type="text" name="filter" placeholder="Enter name of the status">
+            <button type="submit">Find status</button>
         </form>
     </div>
 
@@ -3423,9 +3423,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Theater</h1></th>
             </tr>
-            <tr th:each="theater : ${theaters}">
-                <td th:utext="${theater.id}"></td>
-                <td th:utext="${theater.name}"></td>
+            <tr th:each="status : ${theaters}">
+                <td th:utext="${status.id}"></td>
+                <td th:utext="${status.name}"></td>
             </tr>
         </table>
     </div>
@@ -3437,16 +3437,16 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
 	... 79 common frames omitted
 "2020-12-11 03:50:33 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/adminpage.html" - line 16, col 13)] with root cause
-"org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor>
-            <button type="submit">Change actor</button>
+"org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of championship>
+            <button type="submit">Change championship</button>
         </form>
         <form th:action="@{DeleteActor}" th:object="${ActorForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of actor">
-            <button type="submit">Delete actor</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of championship">
+            <button type="submit">Delete championship</button>
         </form>
         <form method="post" action="ActorFilter">
-            <input type="text" name="filter" placeholder="Enter name of actor">
-            <button type="submit">Find actor</button>
+            <input type="text" name="filter" placeholder="Enter name of championship">
+            <button type="submit">Find championship</button>
         </form>
     </div>
 
@@ -3456,9 +3456,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Actor</h1></th>
             </tr>
-            <tr th:each="actor : ${actors}">
-                <td th:utext="${actor.id}"></td>
-                <td th:utext="${actor.name}"></td>
+            <tr th:each="championship : ${actors}">
+                <td th:utext="${championship.id}"></td>
+                <td th:utext="${championship.name}"></td>
             </tr>
         </table>
     </div>
@@ -3466,21 +3466,21 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 <div>
     <div>
         <form th:action="@{AddTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Add theater</button>
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Add status</button>
         </form>
         <form th:action="@{ChangeTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Change theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Change status</button>
         </form>
         <form th:action="@{DeleteTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <button type="submit">Delete theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <button type="submit">Delete status</button>
         </form>
         <form method="post" action="TheaterFilter">
-            <input type="text" name="filter" placeholder="Enter name of the theater">
-            <button type="submit">Find theater</button>
+            <input type="text" name="filter" placeholder="Enter name of the status">
+            <button type="submit">Find status</button>
         </form>
     </div>
 
@@ -3490,9 +3490,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Theater</h1></th>
             </tr>
-            <tr th:each="theater : ${theaters}">
-                <td th:utext="${theater.id}"></td>
-                <td th:utext="${theater.name}"></td>
+            <tr th:each="status : ${theaters}">
+                <td th:utext="${status.id}"></td>
+                <td th:utext="${status.name}"></td>
             </tr>
         </table>
     </div>
@@ -3663,16 +3663,16 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor>
-            <button type="submit">Change actor</button>
+Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of championship>
+            <button type="submit">Change championship</button>
         </form>
         <form th:action="@{DeleteActor}" th:object="${ActorForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of actor">
-            <button type="submit">Delete actor</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of championship">
+            <button type="submit">Delete championship</button>
         </form>
         <form method="post" action="ActorFilter">
-            <input type="text" name="filter" placeholder="Enter name of actor">
-            <button type="submit">Find actor</button>
+            <input type="text" name="filter" placeholder="Enter name of championship">
+            <button type="submit">Find championship</button>
         </form>
     </div>
 
@@ -3682,9 +3682,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Actor</h1></th>
             </tr>
-            <tr th:each="actor : ${actors}">
-                <td th:utext="${actor.id}"></td>
-                <td th:utext="${actor.name}"></td>
+            <tr th:each="championship : ${actors}">
+                <td th:utext="${championship.id}"></td>
+                <td th:utext="${championship.name}"></td>
             </tr>
         </table>
     </div>
@@ -3692,21 +3692,21 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 <div>
     <div>
         <form th:action="@{AddTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Add theater</button>
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Add status</button>
         </form>
         <form th:action="@{ChangeTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Change theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Change status</button>
         </form>
         <form th:action="@{DeleteTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <button type="submit">Delete theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <button type="submit">Delete status</button>
         </form>
         <form method="post" action="TheaterFilter">
-            <input type="text" name="filter" placeholder="Enter name of the theater">
-            <button type="submit">Find theater</button>
+            <input type="text" name="filter" placeholder="Enter name of the status">
+            <button type="submit">Find status</button>
         </form>
     </div>
 
@@ -3716,9 +3716,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Theater</h1></th>
             </tr>
-            <tr th:each="theater : ${theaters}">
-                <td th:utext="${theater.id}"></td>
-                <td th:utext="${theater.name}"></td>
+            <tr th:each="status : ${theaters}">
+                <td th:utext="${status.id}"></td>
+                <td th:utext="${status.name}"></td>
             </tr>
         </table>
     </div>
@@ -3730,16 +3730,16 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
 	... 79 common frames omitted
 "2020-12-11 03:51:52 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "templates/WEB-INF/adminpage.html" - line 16, col 13)] with root cause
-"org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of actor>
-            <button type="submit">Change actor</button>
+"org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete structure: "<input type="text" th:field="*{name}" name="name" placeholder="Enter name of championship>
+            <button type="submit">Change championship</button>
         </form>
         <form th:action="@{DeleteActor}" th:object="${ActorForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of actor">
-            <button type="submit">Delete actor</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of championship">
+            <button type="submit">Delete championship</button>
         </form>
         <form method="post" action="ActorFilter">
-            <input type="text" name="filter" placeholder="Enter name of actor">
-            <button type="submit">Find actor</button>
+            <input type="text" name="filter" placeholder="Enter name of championship">
+            <button type="submit">Find championship</button>
         </form>
     </div>
 
@@ -3749,9 +3749,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Actor</h1></th>
             </tr>
-            <tr th:each="actor : ${actors}">
-                <td th:utext="${actor.id}"></td>
-                <td th:utext="${actor.name}"></td>
+            <tr th:each="championship : ${actors}">
+                <td th:utext="${championship.id}"></td>
+                <td th:utext="${championship.name}"></td>
             </tr>
         </table>
     </div>
@@ -3759,21 +3759,21 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 <div>
     <div>
         <form th:action="@{AddTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Add theater</button>
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Add status</button>
         </form>
         <form th:action="@{ChangeTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the theater">
-            <button type="submit">Change theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <input type="text" th:field="*{name}" name="name" placeholder="Enter name of the status">
+            <button type="submit">Change status</button>
         </form>
         <form th:action="@{DeleteTheater}" th:object="${TheaterForm}" method="post">
-            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the theater">
-            <button type="submit">Delete theater</button>
+            <input type="text" th:field="*{id}" name="id" placeholder="Enter id of the status">
+            <button type="submit">Delete status</button>
         </form>
         <form method="post" action="TheaterFilter">
-            <input type="text" name="filter" placeholder="Enter name of the theater">
-            <button type="submit">Find theater</button>
+            <input type="text" name="filter" placeholder="Enter name of the status">
+            <button type="submit">Find status</button>
         </form>
     </div>
 
@@ -3783,9 +3783,9 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
                 <th><h1>ID</h1></th>
                 <th><h1>Theater</h1></th>
             </tr>
-            <tr th:each="theater : ${theaters}">
-                <td th:utext="${theater.id}"></td>
-                <td th:utext="${theater.name}"></td>
+            <tr th:each="status : ${theaters}">
+                <td th:utext="${status.id}"></td>
+                <td th:utext="${status.name}"></td>
             </tr>
         </table>
     </div>
@@ -4144,7 +4144,7 @@ Caused by: org.attoparser.ParseException: (Line = 16, Column = 13) Incomplete st
 ""2020-12-11 08:35:33 [http-nio-8080-exec-3] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:35:40 [http-nio-8080-exec-2] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
 ""2020-12-11 08:35:48 [http-nio-8080-exec-4] INFO  b.n.t.c.r.AuthenticationRestControllerV1 - /api/v1/auth/login was called
-""2020-12-11 08:35:55 [http-nio-8080-exec-5] INFO  b.n.t.c.rest.UserRestControllerV1 - /api/v1/users/performances was called
+""2020-12-11 08:35:55 [http-nio-8080-exec-5] INFO  b.n.t.c.rest.UserRestControllerV1 - /api/v1/users/requests was called
 ""2020-12-11 08:46:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - Starting TheatreApplication on DESKTOP-QCIHU10 with PID 9780 (C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject\target\classes started by Julia in C:\Users\Julia\Documents\учеба\5 сем\СТП\JavaSpringProject)
 ""2020-12-11 08:46:25 [main] INFO  by.nevar.gamefinder.TheatreApplication - No active profile set, falling back to default profiles: default
 ""2020-12-11 08:46:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.

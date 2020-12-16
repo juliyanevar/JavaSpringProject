@@ -1,4 +1,4 @@
-package by.nevar.theatre.security;
+package by.nevar.gamefinder.security.jwt;
 
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
