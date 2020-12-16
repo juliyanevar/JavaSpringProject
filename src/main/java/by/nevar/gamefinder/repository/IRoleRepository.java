@@ -1,0 +1,8 @@
+package by.nevar.gamefinder.repository;
+
+import by.nevar.gamefinder.models.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface IRoleRepository extends JpaRepository<Role, Long> {
+    Role findByName(String name);
+}
