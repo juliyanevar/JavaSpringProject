@@ -1,5 +1,6 @@
 package by.nevar.gamefinder.service;
 
+import by.nevar.gamefinder.models.Status;
 import by.nevar.gamefinder.models.Role;
 import by.nevar.gamefinder.models.User;
 import by.nevar.gamefinder.repository.IRoleRepository;

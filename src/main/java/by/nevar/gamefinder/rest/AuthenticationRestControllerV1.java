@@ -1,6 +1,7 @@
 package by.nevar.gamefinder.rest;
 
 
+import by.nevar.gamefinder.dto.RequestDto;
 import by.nevar.gamefinder.validator.PlayerValidator;
 import by.nevar.gamefinder.dto.AuthenticationRequestDto;
 import by.nevar.gamefinder.models.*;
