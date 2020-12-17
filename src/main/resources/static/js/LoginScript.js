@@ -45,8 +45,9 @@ async function Registration()
 
     let data = await response.json();
 
-    if(response.status === 200)
+    if(response.status >= 200&&response.status<300)
     {
+        alert("User "+username+ " was registared");
         document.location.href = "/";
     }
     else
@@ -54,5 +55,6 @@ async function Registration()
         document.querySelector("#result").style.color = "#e74c3c";
         document.querySelector("#result").innerHTML = data.error;
     }
+
 }
 

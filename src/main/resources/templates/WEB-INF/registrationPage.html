@@ -56,10 +56,16 @@
         </div>
         <div style="margin-top: 40px">
             <h3 style="text-align:center;">Resolve Request</h3>
-            <select style="background-color: rgba(255,255,255,.2); color: white;"
-                    class="form-control" id="Request-select" type="text" onclick="chooseRequest()"
-                    onchange="chooseRequest()">
-            </select>
+            <div style="display: flex;flex-direction: row;">
+                <select style="background-color: rgba(255,255,255,.2); color: white;"
+                        class="form-control" id="Request-select" type="text" onclick="chooseRequest()"
+                        onchange="chooseRequest()">
+                </select>
+                <div style="display: flex;flex-direction: row;">
+                    <input type="range" min="1" max="3" value="2" class="slider" onchange="changeStatus()" id="req_status">
+                    <div style="font-size: 25px;" id="req_status_text">P</div>
+                </div>
+            </div>
             <h4 style="text-align: center">Message</h4>
             <div style="padding: 10px 15px" id="message">
 

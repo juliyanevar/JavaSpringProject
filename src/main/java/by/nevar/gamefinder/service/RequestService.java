@@ -69,14 +69,17 @@ public class RequestService implements IMyRequestService {
 
         if (isAccept) {
             request.setStatus("Accepted");
-            message.setText(strToParse + "was accepted by admin");
+            message.setText("[ " + strToParse + " ]  " + "was accepted by admin");
         } else {
             request.setStatus("Refused");
             message.setText("[ " + strToParse + " ]  " + "was refused by admin");
         }
         if (user.getEmail() != null) {
-            message.setTo(user.getEmail());
-            this.emailSender.send(message);
+            Runnable task = () -> {
+                message.setTo(user.getEmail());
+                this.emailSender.send(message);
+            };
+            task.run();
         }
 
         requestRepository.save(request);

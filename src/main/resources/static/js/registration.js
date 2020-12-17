@@ -131,9 +131,22 @@ async function chooseRequest() {
 }
 
 async function setRequests() {
-    let response = await fetch("api/v1/auth/requests",
+    let sliderdata = document.getElementById("req_status");
+    let sstat;
+    switch (sliderdata.value) {
+        case '1':
+            sstat = 'Accepted';
+            break;
+        case '2':
+            sstat = 'Pending';
+            break;
+        case '3':
+            sstat = 'Refused';
+            break;
+    }
+    let response = await fetch("api/v1/auth/requests/" + sstat,
         {
-            method: 'GET', mode: 'no-cors',
+            method: 'GET',
             headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}
         });
     let data = await response.json();
@@ -144,6 +157,27 @@ async function setRequests() {
         select.innerHTML += "<option value=\"Choice " + i + "\">" + el.user + " => " + el.championship + "</option>";
         i++;
     });
+}
+
+async function changeStatus() {
+    let sliderdata = document.getElementById("req_status");
+    let sliderText = document.getElementById("req_status_text");
+
+    switch (sliderdata.value) {
+        case '1':
+            sliderdata.style.background = "green";
+            sliderText.innerText = 'A';
+            break;
+        case '2':
+            sliderdata.style.background = "#d3d3d3";
+            sliderText.innerText = 'P';
+            break;
+        case '3':
+            sliderdata.style.background = "red";
+            sliderText.innerText = 'R';
+            break;
+    }
+    setRequests();
 }
 
 window.load = init();
