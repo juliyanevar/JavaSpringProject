@@ -45,7 +45,7 @@ public class IntegrationTests {
     }
 
     @Test
-    void testSetJwtTokenProviderTEACHER() throws Exception {
+    void testSetJwtTokenProviderAdmin() throws Exception {
         setUp();
         List<Role> roles = new ArrayList<>();
         roles.add(new Role("ROLE_ADMIN"));
