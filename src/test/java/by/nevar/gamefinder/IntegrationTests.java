@@ -32,15 +32,15 @@ public class IntegrationTests {
     }
 
     @Test
-    void testSetJwtTokenProviderSTUDENT() throws Exception {
+    void testSetJwtTokenProviderPlayer() throws Exception {
         setUp();
         List<Role> roles = new ArrayList<>();
         roles.add(new Role("ROLE_PLAYER"));
-        String token = jwtTokenProvider.createToken("Defender", roles);
+        String token = jwtTokenProvider.createToken("juli", roles);
         Authentication authentication = jwtTokenProvider.getAuthentication(token);
         SecurityContextHolder.getContext().setAuthentication(authentication);
 
-        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/players/username?username=Defender").header("Authorization", "Bearer_" + token))
+        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/players/username?username=juli").header("Authorization", "Bearer_" + token))
                 .andExpect(status().is2xxSuccessful());
     }
 
