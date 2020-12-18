@@ -55,7 +55,7 @@ public class AdminRestControllerV1 {
 
     @PostMapping(value = {"/acceptRequest"}, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity acceptRequest(@RequestBody String string) {
-        requestService.setRequestStatus(string,true);
+        requestService.setRequestStatus(string, true);
         return new ResponseEntity(HttpStatus.OK);
     }
 
